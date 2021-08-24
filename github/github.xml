@@ -4,7 +4,7 @@
   <ShortName>GitHub</ShortName>
   <Description>GitHub</Description>
   <InputEncoding>utf-8</InputEncoding>
-  <Image width="16" height="16">https://www.google.com/s2/favicons?domain=github.com</Image>
+  <Image width="32" height="32">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADDElEQVR4Aa1XA8wkTRCt3zzbi94dbfd8OsU427Zt27YZJ2fEueBsMzrbtq8qmVwmO91ZzUsqg9ab14UeSBaMVc4f0XkbZoi1eD2O10donxx75LxbEzZEK03T8oFf0DShMYOvx8nfoX1P0t6irQsZWRFIF6Vzc/9lppiHE32mSdO0T6jInEAg8DekAmKOgy/QJD7ZEcPILQXJgJl2trO/3301XdwOajGR8Msli/tKgpRQ7rlXdn4JrxvRnqSx4DMcvwmvp+K3Q+oT5HDxk4R13h0Qubm5f+BzV7T7TturiCHO4XUvLrKH6fZZvH/utCFZ3teyrD8BEdHtJh5yJp/sCTWZt4e0WB64QPHNrGwTAH4FL34J6XYUFy4MLkSjPCRR503AskoCOKA4V8iYAxlC17MCirlX/MxwlDiknUy7HWSIsMlrKwi8QbX+B0qvsg5hg98LxmIlIEM4H3hFvobdEii3yxnyvuATaCHZGhHTXg1URCSNX3RdLwI+gcJOsc1HSYHHkoa74DMobCWJ6SER+Oh1PnEVfIZC6Q8gl4a/BH9B69yQRQI13JQ0fGMsuxj4BCfNf/BGgbhOBI7JcwBvC3L4mQsO094skTXSnlF69Ud+vktBYCESEE1VFS1simEZO5/JOyvnN+zGQAWGqpui0zfsNNWpbCmi+W8YesPVRzr+klKxI5G9zLX381GV1lRiXQNuMV1MZDqvKoT4DxQoW7bqP1HLrsRMMUaeft2lXiwGcBC2LOby0mcRI1Y9FMotIDsX4lcdUJRjwPadSR5W3lOZBjfokODq8ELTsktTffcc0UzeEBSgr0+GAKkpzddxsq8FmjRql8H3E8hjwzrvwRj7CxSgtiQInFHOEY7FylEdcDp+Dhm8DqSIBP8RdxgTZUENktGy3SRQri14HYSlsydJR96dgMAX1eIhnXNIBsTSvR1uI/kSEPjqGUNzKb9cDuckzEeSx7onS/SbFf9rxgx7lmRM8qBwoZilxEEJi4glIPCU+lFuofAGv0AZM2hkV4AECFlWecohkCR+AA78uDvYV6PmAAAAAElFTkSuQmCC</Image>
   <Url method="GET" type="text/html"
        template="https://github.com/search">
     <Param name="q" value="{searchTerms}"/>
