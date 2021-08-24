@@ -7,7 +7,11 @@
   <Image width="32" height="32">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABnRSTlMAAAAAAABupgeRAAACp0lEQVR4AbSVA5AeMRSAa4zVUT1Wbdu2bdu2bbs927Zt2/Y627Q7k8v9WZ3erPF98eugHuB/CAohve3QskBcUTWQqRlo9BuJa60GFVxsUag5VOh8QV79r89VJ/eXrZpbMntsyawxZStmVx7fW//tPZ+XQzrgUS+dL8yvvna2ZObokhmjZDf4qvrKafiZdj1IOuViX7pgMgklt9KFU2hPFw2HAb3+z1c1KLHV3L9GthVRfKzsJKJi17q6Dy8oOwvK3rLuw8uK3esb6Y9viwCodTiiS11aOn8Sji7fuJQJCxKJYEIDy9YurH35UGVQoVHfKKh7eginVx7cBmpqlBCgvk571AKsdqAhnXPuXn1mgESH41KoqhBbEf8EePGFzNucW1e41b/oVTpvJOVk22I0qkTTDgifLQngxlgMFDmujQWcTx8k4GPXyf4z/Vad+uYZzykL3LsjgZB2qWWCX/5s+wq+eDP6mihmbcsEJkHKNeAj5iBBns9gVtDVyRklAi7wTlTuAyHzrkS3tR840WipVbqbHoFRIIsLCqsALjCYaJkNbj1vW40YabQCbrOttpdRler0WgqsfFqP6FvfNRhMNMOV7kngdYhG20bnU1VMjRKd5cUzfyi8+MaoA/DkgwsK6komm23AHQtt9vjkh5H0lMqsHdZG029VIzqsSgMDcIH8cu2Y5YPoaFvpcPhRxBeTFEfTVKdXMb92ul0YZbQSPh/z9cy0e7mSwDeJV8g5RML5kWSN0JrbqF9bJz8OwYY/kXDwRRuFc7bfZLONegRjjFd/iLHWTv1kWi78u6+vq4/1m60MwWN6+r666+/uEjYd0x/I0b7w+vqcA02eG1MtVoUB3eu2ITl1by0wJm68u0du04gsANFIRquUMICrH4DGL6XNd4KuBgATC16GZiAe4gAAAABJRU5ErkJggg==</Image>
   <Url method="GET" type="text/html"
        template="https://www.google.co.jp/search">
-    <Param name="q" value="{searchTerms}"/>
+    <Param name="q"      value="{searchTerms}"/>
+    <Param name="hl"     value="ja"/>
+    <Param name="gl"     value="jp"/>
+    <Param name="gws_rd" value="cr"/>
+    <Param name="pws"    value="0"/>
   </Url>
   <Url method="GET" type="application/x-suggestions+json"
        template="https://www.google.co.jp/complete/search">
