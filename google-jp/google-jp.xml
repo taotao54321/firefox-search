@@ -18,5 +18,5 @@
     <Param name="q"      value="{searchTerms}"/>
     <Param name="client" value="firefox"/>
   </Url>
-  <moz:SearchForm>https://www.google.co.jp/</moz:SearchForm>
+  <moz:SearchForm>https://www.google.co.jp/?hl=ja&amp;gl=jp&amp;gws_rd=cr&amp;pws=0</moz:SearchForm>
 </OpenSearchDescription>
