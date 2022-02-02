@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Bing</ShortName>
+  <Description>Bing</Description>
+  <InputEncoding>utf-8</InputEncoding>
+  <Image width="32" height="32">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABnRSTlMA/wD/AP83WBt9AAACmElEQVR4AdSWA4wsWRSG/3NvVWvMYG3btoJ1bGPibLhGzI03WERr29azbduvUXXvOa8wblSNZ778M+3+6j+nRSKCqcRBFXf9XrSRVIC/7y5gYtRocMcvRQwgCPnr3vFrFKoQS4NBlNt+LE2mAJZGhQLHd+VJ24EYVCOTuGQwoQoCJrEBTe3LFBZzXCAGDbj5FwQIyf/30LgbJDxSotzwG1uSRXfpsTdIFJDEDia+4i9jlF19a2EsDfyEZ4//MzGTWGKj+KwFRyqO2XN1d7qPCk9qBhHB6KMGwrFDBQIb58zlu9IJfK6Z4TtgJVZx8N8otqGDXeIs8TWrtqbYgSeoz6j5hM+uwxItCARhUjSocM1ggIV36Xg+g8PJEWeVBMmRTHQHMUxsB4Yj4YFLfPgZ4sfWr0saUYWRxMrb8gBOX3QoEOROWtpXyV6oAoFL4kISBOxbpGPHtZ2XPbPVO2FKx/ydBXtJX9ZtFpc4SeAxUnDb63u8E+K6jrhkM1Q54m9+x7u+TznJDSoJDR5476ApslbK0RBN7JDrhtMpb/WCU01IELhtKO2v63jky2NaQZQSFfyD0qS1cpxQID40Sm+fd2mCoOe2lt2fHixXvRse/7NsK1YTLAWIUhRFtBbtIHAgB03F5JfpD0/nei7Nim+s1x8Y03uGIiD8AwgUgOi/CtFaacfRHefjrfMuS34nB3Q93a3bsG/eCb9oW87Idt/Umjsnz55F9KyggVMiRVAqiAKpeS/1AEgl8AVd93d33tcFhlhmI+KPnhjRgCz8L8vfaAOQVvDZxXh6NTSqofg/kcTnRei/11qTf3hV89ElMAJBPUJD2eDv51rH8Nu0mseWiyssBvCZPcsec9makjVFObXdcYJEN35pCQCAcsKg1JHBdQAAAABJRU5ErkJggg==</Image>
+  <Url method="GET" type="text/html"
+       template="https://www.bing.com/search">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  <moz:SearchForm>https://www.bing.com/</moz:SearchForm>
+</OpenSearchDescription>
