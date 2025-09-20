@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Wikipedia-ja</ShortName>
+  <Description>Wikipedia-ja</Description>
+  <InputEncoding>utf-8</InputEncoding>
+  <Image width="48" height="48">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAM1BMVEUAAAD+/v5HR0cwMDBYWFh2dnbHx8epqakBAQEXFxeHh4e3t7dnZ2cAAADX19eVlZXo6OjWmgxfAAAAAXRSTlMAQObYZgAAAahJREFUeAHck8He2yAMw2scQCYI/P5Pu40QkkObb73sMJ0c9/dHMtSvKflRr5vkL/WaEvmOEPmOkK/0LwD5Uv8JEFTD9ltBNcpVp3zUYXWDbgNIUTFkJcleAZCoWVoPABh6O7qw0mYkjwRgPjyzESijbAp0GSpA8GsG3wBsM2UEGc929KOZYe0+9G6Ezt+Snm7JtM1TOovcAa8k92UxkxTm2fKgaQFncuqsm3JYJAs+W/sMeQEeSKZlMcauWAab7QuY6gDCaWGgeVrXILdyAa4kzxErgHidKgX5Dly3uS0LwlDXYaZyB1YO4BxyI2DtitvfALIB69AG0E5aTP0dkAwwv9Fx1pnl/d9bQZTb2OczB/P3wA5QV6RlkVg/LZAB1meiDCC0o26fgE4yHA9VZeMRsGH7vKIGWp6pG8A/U1S0z0DhWIvMPi+qi1uQz4AbaUmC+sgFqBekB0AiwdKRB10BdFV5AhpJO9dgB2DMD8BcbuznB0n1B2AGX++Ux9jPgAfYfvOz9gMgmfH66JgfD0CL6eZX069RXBgPwkoRrIN2TQFyGickN38AanEXb/PAqBUAAAAASUVORK5CYII=</Image>
+  <Url method="GET" type="text/html"
+       template="https://ja.wikipedia.org/w/index.php">
+    <Param name="search" value="{searchTerms}" />
+    <Param name="fulltext" value="1" />
+  </Url>
+  <Url method="GET" type="application/x-suggestions+json"
+       template="https://ja.wikipedia.org/w/api.php">
+    <Param name="search" value="{searchTerms}" />
+    <Param name="action" value="opensearch" />
+    <Param name="namespace" value="0" />
+    <Param name="limit"  value="10" />
+    <Param name="format" value="json" />
+  </Url>
+  <moz:SearchForm>https://ja.wikipedia.org/w/index.php?search=</moz:SearchForm>
+</OpenSearchDescription>
