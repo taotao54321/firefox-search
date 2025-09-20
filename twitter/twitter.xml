@@ -6,8 +6,8 @@
   <InputEncoding>utf-8</InputEncoding>
   <Image width="32" height="32">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACB0lEQVR4Ae3WA7BWQRQA4M12jZo9P7Jt23YNsl3DbI6ya89m27Zdo2xjz74/d5sdpf/dd++zvpkz3LMWS5Qo3oCVVBCkWsGRboCgT4DqHhc0O+9qlZ39wbeKqnqPWKlZMB6kmh6phzOXPKiHAdIXLpT1bwDSCw+qbiBoLCBd5kItY6EBVMIkeZBGOm58ZUgDk+MkANUpMyPe1So/C4YLdeaPni/MvdLKyGxUP2IlB0FPHTUu6DOg2mGWBqSuw4IBQQf/TqQnXqmahzp6GahoyjkOpAAgtbFZS5oYSvIZkNTTv97K9M/Ga+2qAyt1XWYn15oA56jIfgRqOwg91St1F0A92E0H/PgJmJ3c6ykHSGrLkb6ZhMiO3LutVMwOIB0CQScB6XYUdOAtCwtHNTNociQEIB1gYcm7PpDTZg9EMPRQ5oRH6k4g6Gtkd8AnP+djTnmRqnFU5yOtA6j2MDc8gvqCoAWA6m5kdMAjAhWYG+ZRirzR0xYWHs4vGbugR4XWW1kj8MbrWuYF44J+uG3cbGT7qXfBtypQ1rx6zhtXKviL55J/pS4CghbbH8sgHxAZUpK5Bagqg1l3SePN18q82y4323cP0rz8wsrGwgtESGMQdJgj/XRxxjUIWudbrYuyyGKeTQ9SP0CF5pNpptX8+QDVOxB0E5D2A9IiLlSzCuutNCwuS5ToF8gpNsfZXBU8AAAAAElFTkSuQmCC</Image>
   <Url method="GET" type="text/html"
-       template="https://twitter.com/search">
+       template="https://x.com/search">
     <Param name="q" value="{searchTerms}"/>
   </Url>
-  <moz:SearchForm>https://twitter.com/</moz:SearchForm>
+  <moz:SearchForm>https://x.com/</moz:SearchForm>
 </OpenSearchDescription>
